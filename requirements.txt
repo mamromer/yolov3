@@ -3,6 +3,7 @@ numpy
 cython
 opencv-python >= 4.1
 torch >= 1.4
+future
 matplotlib
 pycocotools
 tqdm
