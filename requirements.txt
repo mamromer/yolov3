@@ -1,5 +1,6 @@
 # pip install -U -r requirements.txt
 numpy
+cython
 opencv-python >= 4.1
 torch >= 1.4
 matplotlib
