@@ -4,7 +4,7 @@ Cython
 future
 opencv-python >= 4.1
 # torch >= 1.4
-pip3 install torch torchvision
+torch torchvision
 matplotlib
 pycocotools
 tqdm
