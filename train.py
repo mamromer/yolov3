@@ -1,4 +1,5 @@
 import argparse
+import helper
 
 import torch.distributed as dist
 import torch.optim as optim
@@ -173,7 +174,7 @@ def train():
     batch_size = min(batch_size, len(dataset))
     # nw = min([os.cpu_count(), batch_size if batch_size > 1 else 0, 8])  # number of workers
     # nw = 0  # number of workers
-    nw = numwork
+    nw = helper.numworkers
     dataloader = torch.utils.data.DataLoader(dataset,
                                              batch_size=batch_size,
                                              num_workers=nw,
