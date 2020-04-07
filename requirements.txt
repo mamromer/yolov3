@@ -3,8 +3,8 @@ numpy
 Cython
 future
 opencv-python >= 4.1
-# torch >= 1.4
-torch torchvision
+torch >= 1.4
+torchvision
 matplotlib
 pycocotools
 tqdm
