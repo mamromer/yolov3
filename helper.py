@@ -1,2 +1,2 @@
 # global parameters
-numwork = 0
+numworkers = 0
