@@ -3,7 +3,6 @@ numpy
 cython
 opencv-python >= 4.1
 torch >= 1.4
-future
 matplotlib
 pycocotools
 tqdm
@@ -14,7 +13,7 @@ pillow
 
 # Tensorboard (optional) pip requirements --------------------------------------
 # tb-nightly
-# future
+future
 
 # Conda commands (in place of pip) ---------------------------------------------
 # conda update -yn base -c defaults conda
