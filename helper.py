@@ -1,5 +1,5 @@
 # global parameters
-numworkers = 2
+numworkers = 8
 numepochs = 300
 roboflowurl = 'https://app.roboflow.ai/ds/nw1nLjWUAM?key=4svwFCyLJM'
 yolotype = '/cfg/yolov3-tiny.cfg'
