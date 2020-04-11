@@ -7,3 +7,4 @@ numbatches = 64
 numaccums = 2
 imagesize = 416
 weightsfile = 'yolov3-spp-ultralytics.pt'
+batchsize = 64
